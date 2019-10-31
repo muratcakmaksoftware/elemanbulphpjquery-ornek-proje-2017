@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+.container-full{
+	width: 100%;
+}
+
+.menu{
+	height: 100%;
+	background-color:#26BDD0;
+	padding: 10px 0px 10px 0px;
+	float:left;
+}
+
+.low-menu{
+	width: 100px;
+	height: 100%;
+	background-color:#26BDD0;
+	padding: 10px 0px 10px 0px;
+
+}
+
+.sag{
+	padding: 10px;
+	background-color: gray;
+	width: 80%;
+	float:left;
+}
+
+.ham{
+	width: 100%;	
+	font-size:26px;
+	font-weight: bold;
+	color:white;
+	line-height: 50px;
+	padding: 10px 10px 0px 30px;
+}
+
+.hamimg{
+	width: 45px;
+	height: 50px;
+}
+
+@media only screen and (max-width: 895px) {
+
+
+	.menu{
+		width: 315px;
+		background-color:#26BDD0;
+		padding: 10px 0px 10px 0px;
+
+	}
+}

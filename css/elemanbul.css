@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+.sagYasla {
+  	float: right;
+}
+
+hr{
+	width: 100%;
+	margin-left:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:0px;
+	padding:0px;
+}
+
+.row{
+	word-wrap:break-word;
+}
+
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.kalin{
+	font-weight: bold;
+}
+
+.container-ic{
+	width: 100%;
+	padding: 5px;
+
+}
+
+.white-border-box{
+	padding: 5px;
+	border:1px solid white;	
+}
+
+.secBaslik{
+	width: 100%;
+	color:white;
+	font-size:16px;
+	background-color: #00BFFF;
+	border: none;
+}
+
+.container-checkbox { 
+	padding: 4px; border:2px solid #ccc; width:100%; height: 300px; overflow-y: scroll; 
+  	font-family: 'Source Sans Pro', sans-serif !important;  
+
+}
+
+
+.clear{
+	clear:both;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#aramaMsj{
+	margin-top:10px;background:white;
+	visibility:collapse;
+}
+
+table,th,td{
+	text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.yazitema1{
+	font-size:16px;
+	font-weight: bold;
+}
+
+.yazitema2{
+	color:blue;
+}
+
+.yazibaslik{
+	font-size:26px;
+	font-weight: bold;
+}
+
+.resimg{
+	width: 100px;
+	height: 100px;
+}
+
+
+/* new theme 29.10.2017 start */
+
+.container-firstpage{  	
+	width: 100%;
+	height: auto;  /*header payı*/
+	background-image:url("../images/elemanibulbg.jpg");
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+
+.aramaYap{
+	margin-top:11.7%;
+	padding: 30px;
+	background-color: rgba(0,0,0,0.8);	
+}
+
+.gelismisArama{
+	background-color:rgba(255,255,255,0.9);
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.aramaSonuclari{
+	background-color:rgba(255,255,255,0.9);
+	padding: 10px;
+}
+
+
+.aramainput{
+ 	width:73%; height:65px; font-size:20px; font-weight:bold; float:left;
+ 	border-radius: 0px;
+ 	background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 15px;
+    background-size: 30px auto;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+}
+
+
+.aramabutton{
+	width:10%;height:65px; font-size:16px;margin-left:10px;font-weight:bold;
+	float:left;
+	border-radius: 0px;
+}
+
+.aramaselect{
+	width:100% !important;
+	height:65px !important;
+	text-align-last:center;
+}
+
+.aragrup{
+	width: 15%;
+	float:left;
+}
+
+.container-secondpage{
+	width: 100%;
+	height: auto;
+	background-image:url("../images/elemanibulbg2.jpg");
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+
+.container-aralik{
+	width: 100%;
+	height: 100px;
+	background-color:#26BDD0;
+	line-height: 100px;	
+	text-align: center;	
+	font-size:40px !important;
+	font-weight: bold;
+	color:white;
+
+}
+
+#detayliFiltre{
+	display:none;
+}
+
+.logo{
+	width: 400px;
+	height: 85px;
+}
+
+
+@media only screen and (max-width: 895px) { /*mobil,tablet olduğunda tümünü %100 yaparak tek gösterilecek. 768px mobile*/
+
+	#detayliFiltre{
+		display:block !important;
+	}
+	
+	.aramainput{
+		width:100%;		
+		font-size:20px;
+		height:65px;
+		clear:both;
+
+	}
+
+	.aramabutton{
+		width:100%;
+		font-size:16px;
+		height:65px !important;
+		margin-left: 0px;
+		clear:both;
+	}
+
+	.aramaselect{
+		margin-top:10px;
+		width:100% !important;
+		height:65px !important;
+		clear:both;
+
+	}
+
+	.aragrup{
+		width: 100% !important;
+	}
+
+	.logo{
+		width: 360px !important;
+		height: 85px !important;
+	}
+	
+	.resimg{
+		width: 100px !important;
+		height: 100px !important;
+	}
+
+	.cover{
+		height: auto !important;
+	}
+
+	.yazibaslik{
+		font-size:20px;
+		font-weight: bold;
+	}
+
+	.kisi{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		text-align: center !important;
+	}
+
+	.kbilgiler{
+		float:none !important;		
+		margin-left:0px !important;		
+		padding: 5px;
+	}
+
+	.kresim{
+		float:none !important;		
+	}
+
+	.konbilgi{
+		float:none !important;
+		padding: 10px !important;
+		width: 100% !important;
+	}
+
+	.kdetay{
+		float:none !important;
+	}
+	
+
+	.sagBlog{
+		display: none !important;
+	}
+
+	.bbaslik{
+		width: 100% !important;
+
+	}
+
+	.bicerik{
+		width: 100% !important;
+	}
+
+
+	.bfull{
+		width: 100% !important;
+	}
+
+	.bresim{
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+
+		.bimg{
+			width: 100% !important;
+		}
+
+	.bbuton{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: vertical;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(255,255,255, 0.7); /* sayfa yüklenirken gösterilen arkaplan rengimiz */
+    z-index:99; /* efektin arkada kalmadığından emin oluyoruz */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url('../images/yukleniyor.gif'); /* burası yazının ilk başında bahsettiğimiz animasyonu çağırır */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+.cover{
+	width: 100%;
+	height: auto;
+	background-image:url('../images/eleman-bul-cover-v2.jpg');
+	background-size: 100% auto;
+	background-repeat:no-repeat;	
+	padding-bottom: 2%;
+}
+
+
+.kisi{	
+	width: 100%;
+	padding: 30px;
+	background-color: white;
+
+}
+
+.kresim{
+	float:left;
+}
+
+.kbilgiler{
+	margin-left: 20px;
+	float:left;
+	padding: 7px;
+}
+
+.konbilgi{
+	float:left;
+	padding: 10px;
+	width: 64%;
+}
+
+.kdetay{
+	float:right;
+}
+
+.kyazistil{
+	font-size:16px;
+	font-weight: bold;
+}
+
+.cvdetay{
+	width: 70px;
+	height: 70px;
+}
+
+.bresim{
+	float:left;
+	margin-right: 10px;
+
+}
+
+
+
+.bfull{
+	width: 72.5%;
+	float:left;
+	font-size: 20px;
+	font-weight: bold;	
+	margin-bottom: 10px;
+}
+	.bfull a{
+			text-decoration: none;
+			color:white;
+
+		}
+
+		.bfull a:hover{
+			text-decoration: none;
+			color:#26BDD0;
+		}
+
+.btarihr{
+	background-color: #26BDD0;
+	float:right;
+	padding:10px;
+}
+	.btarihr:hover{
+		background-color: #FFF;
+	}
+		.btarihr:hover a{
+			color:#26BDD0;
+		}
+
+		
+
+.bbox{
+	float:left;
+	padding:10px;
+	background-color: #26BDD0;
+	color:white;
+	width: 120px;
+	text-align: center;
+
+}
+
+	.bbox:hover{
+		background-color: #FFF;
+		color:#26BDD0;
+	}
+
+
+.bbaslik{
+	font-weight: bold;	
+	font-size:26px;
+	background-color: #26BDD0;
+	padding:10px;
+	width: 72.5%;
+	margin-right: 15px;
+	color:white;
+	margin-bottom: 10px;
+
+}
+
+.bicerik{
+	padding:10px;
+	background-color: #EEE;
+	width: 72.5%;
+	font-size:24px;
+}
+
+.bimg{
+	width: 300px;
+	height: 200px;
+	background-color: white;
+}
+
+.bkap{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+.bbuton{
+	background-color: #26BDD0;
+	float:right;
+	padding:10px;
+	margin-top: 10px;
+}
+	.bbuton:hover{
+		background-color: #FFF;
+	}
+		.bbuton:hover a{
+			color:#26BDD0;
+		}
+
+
+.hrstil1{
+	border-color:#26BDD0;
+}
